@@ -1,0 +1,37 @@
+/*@import "./base.css";*/
+
+:root {
+  --primary-color: #42b983 !important;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#app {
+  max-width: 1320px;
+  margin: auto;
+}
+
+a,
+.green {
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1320px) {
+  .container {
+    max-width: 1320px;
+  }
+}
